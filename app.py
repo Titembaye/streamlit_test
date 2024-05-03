@@ -16,7 +16,8 @@ y_pred = np.polyval(coefficients, X_train.flatten())
 r2 = r2_score(y_train, y_pred)
 
 # Définir la page Streamlit
-st.title('Déploiement de modèle avec Streamlit')
+st.title('DJIRAIKINAN TITEMBAYE Donald')
+
 # Widget pour saisir une valeur d'entrée
 input_value = st.slider('Valeur d\'entrée', min_value=0.0, max_value=10.0, step=0.1)
 
@@ -38,3 +39,5 @@ ax.set_ylabel('Y')
 ax.set_title('Régression quadratique')
 ax.legend()
 st.pyplot(fig)
+
+
